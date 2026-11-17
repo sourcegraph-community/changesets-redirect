@@ -9,6 +9,8 @@ github.com/sourcegraph/sourcegraph/pull/12345
 
 PR subpages (`/files`, `/commits`) redirect too. Repos not in your list are untouched.
 
+Watch the [overview on Loom](https://www.loom.com/share/28df26c93e704c4dbe1b4143fb7c5068) (requires sign-in).
+
 ## Install
 
 ```sh
