@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Changesets redirect options</title>
+    <link rel="stylesheet" href="options.css">
+    <script type="module" src="dist/options.js"></script>
+  </head>
+  <body>
+    <form id="settings">
+      <label for="instance-url">Sourcegraph instance URL</label>
+      <input id="instance-url" type="url" required placeholder="https://sourcegraph.example.com">
+
+      <label for="repos">GitHub repos to redirect</label>
+      <textarea id="repos" rows="5" placeholder="owner/repo"></textarea>
+      <p class="hint">One per line. Use <code>owner/*</code> to match every repo in an org.</p>
+
+      <div class="actions">
+        <button type="submit">Save</button>
+        <button type="button" id="reset">Reset to defaults</button>
+        <output id="status"></output>
+      </div>
+    </form>
+  </body>
+</html>

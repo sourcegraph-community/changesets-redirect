@@ -1,0 +1,17 @@
+{
+  "name": "changesets-redirect",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Redirect GitHub PRs to their Sourcegraph changeset page",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "icons": "node scripts/build-icons.ts"
+  },
+  "devDependencies": {
+    "@resvg/resvg-js": "^2.6.2",
+    "@types/chrome": "^0.0.287",
+    "typescript": "^5.6.3"
+  },
+  "type": "module"
+}

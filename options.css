@@ -1,0 +1,37 @@
+body {
+  font: 14px system-ui, sans-serif;
+  margin: 16px;
+  min-width: 420px;
+}
+
+form {
+  display: grid;
+  gap: 6px;
+}
+
+label {
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+input,
+textarea {
+  font: 13px ui-monospace, monospace;
+  padding: 6px;
+}
+
+.hint {
+  color: #666;
+  margin: 0;
+}
+
+.actions {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+#status.error {
+  color: #c62828;
+}
